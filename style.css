@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer{
+  /* background-color: #A4CCD1; */
+  background-color: #68acbd;
+  color: aliceblue;
+  font-size: large;
+  display: flex;
+  text-align: center;
+  height: 200px;
+  box-shadow: 10px 10px 10px grey;
+  margin-bottom: 10px;
+}
+footer{
+  box-shadow: 0px 5px 20px 20px grey;
+  padding: 55px;
+  color: rgb(129, 125, 125);
+}
+footer a{
+  text-decoration: none;
+  color: aliceblue;
+}
+footer a:hover{
+  color:#3a7c8d;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid #3a7c8d; 
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+main{
+  background-color: #BCD4DE;
+}
+.main-p{
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+strong{
+  color: #3a7c8d;
+}
+.image{
+  width: 700px;
+  height: 600px;
+}
+hr{
+  border: 3px solid gray !important ;
+}
+.carousel1 {
+  width: 500px;
+  overflow: hidden;
+  border: 5px solid #3a7c8d;
+}
+.carousel-inner1 {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+.carousel-inner1 img {
+  width: 100%;
+  height: auto;
+}
+
+#logo{
+  color: #68acbd;
+}
+
+.card-m{
+  margin-bottom: 110px;
+}
+
+#description{
+  padding: 70px;
+  color: black;
+
+}
+
+.text-center{
+  color: #3a7c8d;
+}
+
+.span{
+  background-color: #3a7c8d;
+}
+ .num{
+  color: aliceblue;
+ }
